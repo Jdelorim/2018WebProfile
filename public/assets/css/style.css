@@ -1,6 +1,12 @@
 body{
    background: black;
 }
+.nav-wrapper {
+    background-color: #F38690 !important;
+    padding-left: 5%;
+    padding-right: 5%;
+}
 .checkme {
+    border-top: white solid 1.5px; 
     color:blueviolet;
 }

@@ -16,13 +16,6 @@ app.set("view engine", "handlebars");
 
 app.use(express.static("public"));
 require("./routes/apiRoutes")(app);
-/*
-app.get("/", function(req,res) {
-  res.render('index', {
-    title: "Josh deLorimier Web Portfolio"
-  });
-});
-*/
 
 app.listen(PORT, listening);
 
