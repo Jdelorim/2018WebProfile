@@ -1,12 +1,43 @@
 body{
-   background: black;
+   background: white;
 }
 .nav-wrapper {
     background-color: #F38690 !important;
     padding-left: 5%;
     padding-right: 5%;
 }
-.checkme {
-    border-top: white solid 1.5px; 
-    color:blueviolet;
+.brand-logo {
+  /*  font-weight: bold;*/
+    font-size: 24px !important;
+    text-shadow: 2px 2px #ff00 !important;
+    color:whitesmoke !important;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-fill-color: bisque;
+    -webkit-text-stroke-color: black;
+    
+   /* border-style: outset !important;*/
+   /* border: black solid 2px;*/
+}
+.aboutTitle{
+    
+}
+
+.profileImg {
+    float: left;
+    margin: 4px 10px 0px 0px;
+    border: 4px solid #000000;
+
+}
+
+.myAboutMe {
+    background-color: #4BA4A6;
+    border-top: white solid 5px; 
+    padding-bottom: 20px;
+}
+.textContainer {
+    background-color: rgba(0, 51,68, .5);
+    padding: 10px 10px 10px 10px;
+}
+.flow-text{
+    font-size: 18px !important;
 }
