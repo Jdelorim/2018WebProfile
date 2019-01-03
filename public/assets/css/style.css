@@ -1,6 +1,4 @@
-body{
-   background: white;
-}
+
 .nav-wrapper {
     background-color: #F38690 !important;
     padding-left: 5%;
@@ -14,6 +12,11 @@ body{
     -webkit-text-stroke-width: 1px;
     -webkit-text-fill-color: bisque;
     -webkit-text-stroke-color: black;
+}
+/*parrallaxAbout*/
+.pAbout{
+ border: none !important;
+padding: 0px !important;
 }
 /* about me */
 .aboutTitle{
@@ -34,13 +37,13 @@ body{
 .myAboutMe {
     background-color: #4BA4A6;
     background-image: url("../images/dark-triangles.png");
-    border-top: white solid 5px; 
+   /* border-top: white solid 5px; */
     
     
 }
 .textContainer {
     background-color: rgba(0, 51,68, .5);
-    padding: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px !important;
 }
 .flow-text{
     font-size: 18px !important;
@@ -50,6 +53,6 @@ body{
 .tintSectionAbout {
     z-index: 1;
     background-color: rgba(0, 51, 68, 0.2);
-    padding-bottom: 20px;
+    padding-bottom: 19px;
 
 }
