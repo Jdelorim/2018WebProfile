@@ -1,16 +1,20 @@
-
-.nav-wrapper {
-    background-color: #003D3A;
+body{
+    font-family: 'Courier New', Courier, monospace;
 }
+.nav-wrapper {
+    background-color: #4BA4A6 !important;
+}
+.sidenav {
+    background-color: #4BA4A6 !important;
+}
+
 .brand-logo {
-  /*  font-weight: bold;*/
+     font-weight: bold;
     font-size: 24px !important;
     text-shadow: 2px 2px #ff00 !important;
     color:white !important;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-fill-color: white;
-    -webkit-text-stroke-color: black;
 }
+
 nav ul li:hover {
     background-color: rgba(0, 0, 0, 0.3);
     padding-bottom:-2px;
@@ -18,49 +22,74 @@ nav ul li:hover {
 /*parrallaxAbout*/
 .pAbout{
  border: none !important;
- padding: 0px !important;
-}
+ }
+/* about me */
 .tintSectionPabout {
     z-index: 1;
     background-color: rgba(0, 51, 68, 0.2);
     padding-bottom: 19px;
-
 }
-/* about me */
-.aboutTitle{
+
+.aboutTitle {
     font-size: 32px !important;
     text-shadow: 2px 2px #000000 !important;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-fill-color: whitesmoke;
-    -webkit-text-stroke-color: black;
+    border-bottom: white 2px solid;
     padding-bottom:10px;
 }
 
 .profileImg {
     float: left;
     margin: 4px 10px 0px 0px;
-    border: 4px solid #000000;
+    border: 4px solid black;
 }
 
 .myAboutMe {
     background-color: #4BA4A6;
     background-image: url("../images/dark-triangles.png");
-   /* border-top: white solid 5px; */
-    
-    
+   
 }
 .textContainer {
     background-color: rgba(0, 51,68, .5);
     padding: 10px 10px 10px 10px !important;
 }
 .flow-text{
-    font-size: 18px !important;
-    line-height: 20px !important;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px !important;
+    line-height: 25px !important;
 }
 
 .tintSectionAbout {
     z-index: 1;
     background-color: rgba(0, 51, 68, 0.2);
     padding-bottom: 19px;
+
+}
+
+/* portfolio */
+.myPortfolio {
+    background-color: #4BA4A6;
+    background-image: url("../images/dark-triangles.png");
+
+}
+.portfolioTitle{
+    font-size: 32px !important;
+    text-shadow: 2px 2px #000000 !important;
+    border-bottom: white 2px solid;
+    padding-bottom:10px;
+}
+.tintSectionP{
+    z-index: 1;
+    background-color: rgba(0, 51, 68, 0.2);
+    padding-bottom: 19px;
+}
+.portfolioContainer{
+    background-color: rgba(0, 51,68, .5);
+    padding: 10px 10px 10px 10px !important;
+}
+
+@media only screen and (max-width: 600px) {
+    .brand-logo {
+        font-size: 18px !important;
+    }
 
 }
