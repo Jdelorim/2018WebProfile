@@ -9,7 +9,7 @@ body{
 }
 
 .brand-logo {
-     font-weight: bold;
+    font-weight: bold;
     font-size: 24px !important;
     text-shadow: 2px 2px #ff00 !important;
     color:white !important;
@@ -23,6 +23,11 @@ nav ul li:hover {
 .pAbout{
  border: none !important;
  }
+ #fullStack {
+     font-size: 48px !important;
+     margin-top:80px !important;
+ }
+
 /* about me */
 .tintSectionPabout {
     z-index: 1;
@@ -64,6 +69,12 @@ nav ul li:hover {
     padding-bottom: 19px;
 
 }
+/* tech icons */
+.iconHolder {
+    font-size: 80px;
+    color: rgba(0,0,0,.8);
+    margin-top: 70px;
+}
 
 /* portfolio */
 .myPortfolio {
@@ -85,19 +96,25 @@ nav ul li:hover {
 .portfolioContainer{
     background-color: rgba(0, 51,68, .5);
     padding-bottom:100px;
+    
 }
 .carousel {
 
-padding-bottom:300px;
-padding-top:300px;
+padding-bottom:600px;
+
 
 }
 .card{
-  width:300px;
+  width:250px;
   height:auto;
 }
 /*contact*/
-.tintSectionContact{ 
+.contactContainer {
+    background-color: rgba(0, 51,68, .5);
+    padding: 10px 0px 10px 10px !important;
+    
+}
+.tintSectionContact { 
     z-index: 1;
     background-color: rgba(0, 51, 68, 0.2);
     padding-bottom: 19px;
@@ -112,10 +129,38 @@ padding-top:300px;
     border-bottom: white 2px solid;
     padding-bottom:10px;
 }
+/*footer*/
+
+#trashtrash {
+    letter-spacing: -8px;
+}
 
 @media only screen and (max-width: 600px) {
     .brand-logo {
-        font-size: 18px !important;
+        font-size: 15px !important;
+    }
+    #fullStack {
+        font-size: 25px !important;
+        margin-top:80px !important;
+    }
+
+    .card{
+        width:200px;
+        height:auto;
+      }
+      #jemail{
+          font-size: 12px;
+      }
+      #jphone {
+          font-size: 12px;
+      }
+      #jloc {
+          font-size: 12px;
+      }
+      .iconHolder {
+        font-size: 60px;
+        color: rgba(255, 255, 255, 1);
+        margin-top: 60px;
     }
 
 }
