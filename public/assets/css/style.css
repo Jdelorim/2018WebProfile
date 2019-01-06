@@ -77,6 +77,9 @@ nav ul li:hover {
     color: rgba(0,0,0,.8);
     margin-top: 70px;
 }
+.parallax-container {
+    height: 400px !important;
+}
 
 /* portfolio */
 
@@ -97,9 +100,6 @@ nav ul li:hover {
     padding-bottom:20px;
 }
 
-.parallax-container {
-    height: 396px;
-}
 
 .carousel {
     height: 500px;
@@ -114,7 +114,7 @@ nav ul li:hover {
 .card{
   width:250px;
   height:auto;
-  margin: 0;
+  margin: 0 !important;
 }
 
 /*contact*/
@@ -150,30 +150,41 @@ nav ul li:hover {
         font-size: 15px !important;
     }
     #fullStack {
-        font-size: 25px !important;
-        margin-top:80px !important;
+        font-size: 16px !important;
+        margin-top:120px !important;
     }
-
-    .card{
-        width:200px;
-        height:auto;
-      }
-      /* #jemail {
-          font-size: 12px;
-      }
-      #jphone {
-          font-size: 12px;
-      }
-      #jloc {
-          font-size: 12px;
-      } */
-      .contact-container {
+    .contact-container {
           font-size: 12px;
       }
       .iconHolder {
         font-size: 60px;
         color: rgba(255, 255, 255, 1);
-        margin-top: 60px;
+        margin-top: 40px;
     }
+
+    .tintSectionP{
+        z-index: 1;
+        background-color: rgba(0, 51, 68, 0.2);
+        padding-bottom:20px;
+    }
+    .card{
+        width:200px;
+        height:auto;
+        margin: 0 !important;
+        
+      }
+    
+    .carousel {
+        height: 500px;
+        background-color: rgba(0, 51,68, .5);
+        
+    }
+    
+    .carousel .carousel-item {
+        height: auto;
+        width: auto;
+    }
+    
+   
 
 }
