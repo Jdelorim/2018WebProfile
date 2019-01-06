@@ -1,4 +1,11 @@
 document.addEventListener("DOMContentLoaded", () => {
+    //googleA
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+  
+    gtag('config', 'UA-131826143-1');
+    
     var plax = document.querySelectorAll('.parallax');
     var scrollspy = document.querySelectorAll('.scrollspy');
     var sideNav = document.querySelectorAll('.sidenav');
