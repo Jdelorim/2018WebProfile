@@ -2,17 +2,17 @@ body{
     font-family: 'Courier New', Courier, monospace;
 }
 .nav-wrapper {
-    background-color: #4BA4A6 !important;
+    background-color: #4BA4A6 ;
 }
 .sidenav {
-    background-color: #4BA4A6 !important;
+    background-color: #4BA4A6 ;
 }
 
 .brand-logo {
     font-weight: bold;
-    font-size: 24px !important;
-    text-shadow: 2px 2px #ff00 !important;
-    color:white !important;
+    font-size: 24px ;
+    text-shadow: 2px 2px #ff00 ;
+    color:white ;
 }
 
 nav ul li:hover {
@@ -21,19 +21,19 @@ nav ul li:hover {
 }
 /*parrallaxAbout*/
 .pAbout{
- border: none !important;
+ border: none ;
  }
  #fullStack {
-     font-size: 48px !important;
-     margin-top:80px !important;
+     font-size: 48px ;
+     margin-top:80px ;
      padding: 10px 40px;
  }
 
 /* about me */
 
 .aboutTitle {
-    font-size: 32px !important;
-    text-shadow: 2px 2px #000000 !important;
+    font-size: 32px ;
+    text-shadow: 2px 2px #000000 ;
     border-bottom: white 2px solid;
     padding-bottom:10px;
 }
@@ -55,8 +55,8 @@ nav ul li:hover {
 }
 .flow-text {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 16px !important;
-    line-height: 27px !important;
+    font-size: 16px ;
+    line-height: 27px ;
 }
 
 .tintSectionAbout {
@@ -73,7 +73,7 @@ nav ul li:hover {
     margin-top: 70px;
 }
 .parallax-container {
-    height: 400px !important;
+    height: 400px ;
 }
 
 /* portfolio */
@@ -84,8 +84,8 @@ nav ul li:hover {
 
 }
 .portfolioTitle{
-    font-size: 32px !important;
-    text-shadow: 2px 2px #000000 !important;
+    font-size: 32px ;
+    text-shadow: 2px 2px #000000 ;
     border-bottom: white 2px solid;
     padding-bottom: 10px;
 }
@@ -97,25 +97,25 @@ nav ul li:hover {
 
 
 .carousel {
-    height: 500px !important;
+    height: 500px ;
     background-color: rgba(0, 51,68, .5);
 }
 
 .carousel .carousel-item {
-    height: auto !important;
-    width: auto !important;
+    height: auto ;
+    width: auto ;
 }
 
 .card{
-  width:250px !important;
-  height:auto !important;
-  margin: 0 !important;
+  width:250px ;
+  height:auto ;
+  margin: 0 ;
 }
 
 /*contact*/
 .contact-container {
     background-color: rgba(0, 51,68, .5);
-    padding: 10px 0px 10px 10px !important;
+    padding: 10px 0px 10px 10px ;
 }
 
 .tintSectionContact { 
@@ -128,8 +128,8 @@ nav ul li:hover {
     background-image: url("../images/dark-triangles.png");
 }
 .contactTitle{
-    font-size: 32px !important;
-    text-shadow: 2px 2px #000000 !important;
+    font-size: 32px ;
+    text-shadow: 2px 2px #000000 ;
     border-bottom: white 2px solid;
     padding-bottom:10px;
 }
@@ -142,11 +142,11 @@ nav ul li:hover {
 
 @media only screen and (max-width: 500px) {
     .brand-logo {
-        font-size: 15px !important;
+        font-size: 15px ;
     }
     #fullStack {
-        font-size: 16px !important;
-        margin-top:120px !important;
+        font-size: 16px ;
+        margin-top:120px ;
     }
     .contact-container {
           font-size: 12px;
@@ -165,7 +165,7 @@ nav ul li:hover {
     .card{
         width:200px;
         height:auto;
-        margin: 0 !important;
+        margin: 0 ;
         
       }
     
