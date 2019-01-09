@@ -141,6 +141,11 @@ nav ul li:hover {
     letter-spacing: -8px;
 }
 
+.fixed-action-btn{
+    color: #4BA4A6;
+    font-size: 40px;
+}
+
 @media only screen and (max-width: 500px) {
     .brand-logo {
         font-size: 15px ;
