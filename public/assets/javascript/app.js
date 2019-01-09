@@ -6,11 +6,11 @@ document.addEventListener("DOMContentLoaded", () => {
   
     gtag('config', 'UA-131826143-1');
     
-    var plax = document.querySelectorAll('.parallax');
-    var scrollspy = document.querySelectorAll('.scrollspy');
-    var sideNav = document.querySelectorAll('.sidenav');
-    var carousel = document.querySelectorAll('.carousel');
-    var tooltiper = document.querySelectorAll('.tooltipped');
+    const plax = document.querySelectorAll('.parallax');
+    const scrollspy = document.querySelectorAll('.scrollspy');
+    const sideNav = document.querySelectorAll('.sidenav');
+    const carousel = document.querySelectorAll('.carousel');
+    const tooltiper = document.querySelectorAll('.tooltipped');
      
     M.Tooltip.init(tooltiper, {});
     M.Carousel.init(carousel, {});
