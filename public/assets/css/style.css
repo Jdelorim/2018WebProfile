@@ -193,21 +193,21 @@ nav ul li:hover {
         padding-bottom:20px;
     }
     .card{
-        width:200px;
-        height:auto;
-        margin: 0 ;
+        width:200px !important;
+        height:auto !important;
+        margin: 0 !important;
         
       }
     
     .carousel {
-        height: 500px;
+        height: 500px !important;
         background-color: rgba(0, 51,68, .5);
         
     }
     
     .carousel .carousel-item {
-        height: auto;
-        width: auto;
+        height: auto !important;
+        width: auto !important;
     }
     .quote-container { 
         margin-top:100px;
