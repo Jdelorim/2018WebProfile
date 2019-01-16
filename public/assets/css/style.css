@@ -165,8 +165,11 @@ nav ul li:hover {
 }
 
 .fixed-action-btn{
-    color: #4BA4A6;
+   color: white;
     font-size: 40px;
+}
+.linkedin-btn{
+  filter: invert(100%);
 }
 
 @media only screen and (max-width: 500px) {

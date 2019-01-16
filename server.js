@@ -14,7 +14,7 @@ app.engine("handlebars", hbs({ defaultLayout: "main" }));
 app.set("views", path.join(__dirname,"views"));
 app.set("partials",path.join(__dirname,"views/partials"));
 app.set("view engine", "handlebars");
-
+//forces ssl 
 app.use(enforce.HTTPS({ trustProtoHeader: true }));
 
 app.use(express.static("public"));
