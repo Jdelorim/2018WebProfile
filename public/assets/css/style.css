@@ -165,7 +165,7 @@ nav ul li:hover {
 }
 
 .fixed-action-btn{
-   color: white;
+   color: rgba(255, 255, 255, 0.3) !important;
     font-size: 40px;
 }
 .linkedin-btn{
