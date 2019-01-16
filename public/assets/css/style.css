@@ -5,7 +5,14 @@ body{
     background-color: #4BA4A6 ;
 }
 .sidenav {
-    background-color: #4BA4A6 ;
+    background-color: rgba(75, 164, 166, 0.8);
+    
+    padding-top: 10px !important;
+    width: 45% !important;
+    
+}
+.sidenav .white-text{
+    border-bottom:white solid 2px;
 }
 
 .brand-logo {
@@ -103,8 +110,8 @@ nav ul li:hover {
 }
 
 .carousel .carousel-item {
-    height: auto ;
-    width: auto ;
+    height: auto !important;
+    width: auto  !important;
 }
 
 .card{
@@ -112,17 +119,33 @@ nav ul li:hover {
   height:auto ;
   margin: 0 ;
 }
+.card-content h5{
+    font-size: 14px;
+}
+.card-content{
+    height: 180px;
+}
+/*quote*/
+.quote-container { 
+    margin-top:150px;
+    background-color: black;
+    font-size: 24px;
+    color: white;
+   
+}
+
 
 /*contact*/
 .contact-container {
     background-color: rgba(0, 51,68, .5);
     padding: 10px 0px 10px 10px ;
+   
 }
 
 .tintSectionContact { 
     z-index: 1;
     background-color: rgba(0, 51, 68, 0.2);
-    padding-bottom: 19px;
+    padding-bottom: 20px;
 }
 .myContact { 
     background-color: #4BA4A6;
@@ -148,10 +171,11 @@ nav ul li:hover {
 
 @media only screen and (max-width: 500px) {
     .brand-logo {
-        font-size: 15px ;
+        font-size: 15px !important ;
     }
+   
     #fullStack {
-        font-size: 16px ;
+        font-size: 20px ;
         margin-top:120px ;
     }
     .contact-container {
@@ -184,6 +208,13 @@ nav ul li:hover {
     .carousel .carousel-item {
         height: auto;
         width: auto;
+    }
+    .quote-container { 
+        margin-top:100px;
+        background-color: black;
+        font-size: 24px;
+        color: white;
+       
     }
     
    
