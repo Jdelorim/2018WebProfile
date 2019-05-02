@@ -85,49 +85,75 @@ nav ul li:hover {
 }
 
 /* portfolio */
-
-.myPortfolio {
+.myPortfolio{
     background-color: #4BA4A6;
     background-image: url("../images/dark-triangles.png");
-    padding-bottom: 30px;
     
 }
 .portfolioTitle{
     font-size: 32px ;
     text-shadow: 2px 2px #000000 ;
     border-bottom: white 2px solid;
-    padding-bottom: 10px;
-    
+    padding-bottom:10px;
 }
 .tintSectionP{
     z-index: 1;
     background-color: rgba(0, 51, 68, 0.2);
     padding-bottom: 19px;
 }
+.portCon{
+    /* background-color: rgba(0, 51,68, .5);
+     padding: 200px 300px;  */
 
-.carousel {
-    height: 500px !important;
-    background-color: rgba(0, 51,68, .5);
-}
-
-.carousel .carousel-item {
-     height: auto !important;
-    
-}
-.card-holder{
-   display: inline-block;
 }
 .card{
-  width:250px !important;
-  height:auto !important;
-  margin: 20 !important;
+     width:250px !important;  
+    height:auto!important;  
+     margin-left: 20px !important; 
+    
+    border: 3px solid white;
+    margin-bottom:20px;
+}
+.card-content h5{
+    font-size: 14px;
+}
+.card-content{
+    height: 180px;
+}
+  
+
+/* .myPortfolio {
+    background-color: #4BA4A6;
+    background-image: url("../images/dark-triangles.png");
+     padding-bottom: 30px; 
+} 
+.portfolioTitle{
+    font-size: 32px ;
+    text-shadow: 2px 2px #000000 ;
+    border-bottom: white 2px solid;
+    padding-bottom: 10px;
+    padding-top:10px;
+    
+}
+.col{
+    z-index: 1;
+    background-color: rgba(0, 51, 68, 0.2);
+    padding-bottom: 19px;
+}
+
+
+
+.card{
+  width:250px !important; 
+  height:auto !important;  
+   margin: 20px !important;
   
   border: 3px solid white;
-  margin-bottom:20px;
+  margin-bottom:20px;}
   
 }
 
-.card:hover{
+/* .card:hover{
     border: 3px solid rgba(75, 164, 166, 0.8);
   
 }
@@ -136,15 +162,15 @@ nav ul li:hover {
 }
 .card-content{
     height: 180px;
-}
+} */
 /*quote*/
 .quote-container { 
-    margin-top:150px;
+     margin-top:100px; 
     background-color: black;
     font-size: 24px;
     color: white;
    
-}
+} 
 
 
 /*contact*/
