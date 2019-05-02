@@ -89,20 +89,21 @@ nav ul li:hover {
 .myPortfolio {
     background-color: #4BA4A6;
     background-image: url("../images/dark-triangles.png");
-
+    padding-bottom: 30px;
+    
 }
 .portfolioTitle{
     font-size: 32px ;
     text-shadow: 2px 2px #000000 ;
     border-bottom: white 2px solid;
     padding-bottom: 10px;
+    
 }
 .tintSectionP{
     z-index: 1;
     background-color: rgba(0, 51, 68, 0.2);
-    padding-bottom:20px;
+    padding-bottom: 19px;
 }
-
 
 .carousel {
     height: 500px !important;
@@ -110,14 +111,25 @@ nav ul li:hover {
 }
 
 .carousel .carousel-item {
-    height: auto !important;
-    width: auto !important;
+     height: auto !important;
+    
 }
-
+.card-holder{
+   display: inline-block;
+}
 .card{
   width:250px !important;
   height:auto !important;
-  margin: 0 !important;
+  margin: 20 !important;
+  
+  border: 3px solid white;
+  margin-bottom:20px;
+  
+}
+
+.card:hover{
+    border: 3px solid rgba(75, 164, 166, 0.8);
+  
 }
 .card-content h5{
     font-size: 14px;
