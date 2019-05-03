@@ -94,7 +94,7 @@ nav ul li:hover {
     font-size: 32px ;
     text-shadow: 2px 2px #000000 ;
     border-bottom: white 2px solid;
-    padding-bottom:10px;
+     
 }
 .tintSectionP{
     z-index: 1;
@@ -102,23 +102,26 @@ nav ul li:hover {
     padding-bottom: 19px;
 }
 .portCon{
-    /* background-color: rgba(0, 51,68, .5);
-     padding: 200px 300px;  */
-
+    
+    /* z-index:-1;
+    background-color: rgba(0, 51,68, .5);
+    padding: 10px 0px 10px 10px ; */
+   
 }
 .card{
      width:250px !important;  
-    height:auto!important;  
+     height:180!important;  
      margin-left: 20px !important; 
     
     border: 3px solid white;
     margin-bottom:20px;
 }
 .card-content h5{
-    font-size: 14px;
+    font-size: 18px;
 }
 .card-content{
     height: 180px;
+    font-size: 14px;
 }
   
 
