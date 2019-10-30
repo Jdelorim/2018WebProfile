@@ -17,7 +17,9 @@ app.set("view engine", "handlebars");
 //forces ssl 
 // app.use(enforce.HTTPS({ trustProtoHeader: true }));
 
-app.use(express.static("public"));
+//  app.use(express.static("/public"));
+
+ app.use(express.static(path.join(__dirname, './public')));
 require("./routes/apiRoutes")(app);
 
 app.listen(PORT, listening);

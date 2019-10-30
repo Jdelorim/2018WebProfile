@@ -123,6 +123,10 @@ nav ul li:hover {
     height: 180px;
     font-size: 14px;
 }
+.card-image img{
+    width: 200px;
+    height: 180px;
+}
   
 
 /* .myPortfolio {
