@@ -3,7 +3,7 @@ const path = require("path");
 const bodyParser = require("body-parser");
 const hbs = require("express-handlebars");
 const app = express();
-// const enforce = require('express-sslify');
+ const enforce = require('express-sslify');
 const PORT = process.env.PORT || 4040;
 
 app.use(bodyParser.urlencoded({ extended: true}));
@@ -15,9 +15,8 @@ app.engine("handlebars", hbs({ defaultLayout: "main" }));
 app.set("partials",path.join(__dirname,"views/partials"));
 app.set("view engine", "handlebars");
 //forces ssl 
-// app.use(enforce.HTTPS({ trustProtoHeader: true }));
+ app.use(enforce.HTTPS({ trustProtoHeader: true }));
 
-//  app.use(express.static("/public"));
 
  app.use(express.static(path.join(__dirname, './public')));
 require("./routes/apiRoutes")(app);
