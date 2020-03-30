@@ -22,6 +22,7 @@ const enforce = require('express-sslify');
  app.use(express.static(path.join(__dirname, './public')));
 require("./routes/apiRoutes")(app);
 
+
 app.listen(PORT, listening);
 function listening () {
     console.log(`Listening on PORT: ${PORT}`);
