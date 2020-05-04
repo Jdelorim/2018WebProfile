@@ -16,7 +16,7 @@ app.set("partials",path.join(__dirname,"views/partials"));
 app.set("view engine", "handlebars");
 //forces ssl 
 const enforce = require('express-sslify');
- app.use(enforce.HTTPS({ trustProtoHeader: true }));
+ app.use(enforce.HTTPS({ trustProtoHeader: true }))
 
 
  app.use(express.static(path.join(__dirname, './public')));
